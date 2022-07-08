@@ -22,6 +22,6 @@ app.post('/pokemons', db.createPokemons);
 app.put('/pokemons/:id', db.updatePokemons);
 app.delete('/pokemons/:id', db.deletePokemons);
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`App running on port ${PORT}.`);
 });
